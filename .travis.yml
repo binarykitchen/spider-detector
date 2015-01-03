@@ -1,0 +1,8 @@
+language: node_js
+deploy:
+  provider: npm
+  email: michael.heuberger@binarykitchen.com
+  api_key:
+    secure: WQXwSWtvMt/BFuro1Ufxlui6e9tJts9BQ1KQpf9THbr2AMm+bcxanAHQhLvNSD5xeYZdPlWw95HUvHhF/kjTmlkBCNLVDiPFrawnxJa1EOF8+mODhl2OtxdlenJLLyn07aSmbldiP+pMyemOKdmtxEJgIPaVsYwJWCI0Vw/3WCk=
+  on:
+    repo: binarykitchen/spider-detector

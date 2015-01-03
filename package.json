@@ -1,0 +1,39 @@
+{
+  "name": "spider-detector",
+  "version": "1.0.5",
+  "description": "A tiny node module to detect spiders/crawlers quickly and comes with optional middleware for ExpressJS",
+  "main": "index.js",
+  "author": {
+    "name": "Michael Heuberger",
+    "email": "michael.heuberger@binarykitchen.com",
+    "url": "http://binarykitchen.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:binarykitchen/spider-detector.git"
+  },
+  "readmeFilename": "README.md",
+  "scripts": {
+    "postinstall": "npm prune",
+    "test": "tape test/*.js"
+  },
+  "engines": {
+    "node": ">=0.10.30",
+    "npm": ">=1.4.20"
+  },
+  "keywords": [
+    "crawler",
+    "detector",
+    "spider",
+    "bot",
+    "middleware",
+    "single page app",
+    "expressjs"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.10.6",
+    "superagent": "^0.21.0",
+    "tape": "^3.0.3"
+  }
+}
