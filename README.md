@@ -37,4 +37,4 @@ Well, I wanted one which does not use `readFileSync` and comes with optional mid
 
 ## What about Googlebot?
 
-Yp, Googlebot is able to deal with single page apps but this feature is pretty unstable. Especially under AngularJS when hash fragments are disabled with `$locationProvider.html5Mode(true)`. That's why - against all odds - I have classified `googlebot` as a spider in this module.
+Yep, Googlebot is able to deal with single page apps but this feature is pretty unstable. Especially under AngularJS when hash fragments are disabled with `$locationProvider.html5Mode(true)`. That's why - against all odds - I have classified `googlebot` as a spider in this module.

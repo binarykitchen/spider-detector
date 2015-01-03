@@ -3,6 +3,6 @@ deploy:
   provider: npm
   email: michael.heuberger@binarykitchen.com
   api_key:
-    secure: WQXwSWtvMt/BFuro1Ufxlui6e9tJts9BQ1KQpf9THbr2AMm+bcxanAHQhLvNSD5xeYZdPlWw95HUvHhF/kjTmlkBCNLVDiPFrawnxJa1EOF8+mODhl2OtxdlenJLLyn07aSmbldiP+pMyemOKdmtxEJgIPaVsYwJWCI0Vw/3WCk=
+    secure: inNAl1WS8y1cWDf1LKEnZa6oINsIgUvCTmJ9ea7fxUo+LwZG52kq99idSY4GqO1IoaAnGG1qOOlQ5vxyDQub7WHzFQx7SJcD7zMqqjZ4kERG6uWE539cyJwxPdHwIy8nCvxjYm3jM/jRIqQHCGQRBNGWkDgSOkH9NHefGzkBJbk=
   on:
     repo: binarykitchen/spider-detector
