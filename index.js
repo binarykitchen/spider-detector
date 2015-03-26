@@ -14,6 +14,8 @@ var spiders = [
     /outbrain/,
     /slackbot/,
     /vkshare/,
+    /monit/,
+    /Pingability/,
     /pinterest/
 ]
 

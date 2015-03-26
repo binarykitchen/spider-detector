@@ -32,8 +32,8 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "express": "^4.10.6",
+    "express": "^4.12.3",
     "superagent": "^0.21.0",
-    "tape": "^3.0.3"
+    "tape": "^3.5.0"
   }
 }
