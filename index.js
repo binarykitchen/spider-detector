@@ -16,6 +16,8 @@ var spiders = [
     /vkshare/,
     /monit/,
     /Pingability/,
+    /Monitoring/,
+    /DotBot/,
     /pinterest/
 ]
 

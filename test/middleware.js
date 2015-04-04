@@ -51,6 +51,18 @@ test('middleware with:', function(t) {
             t.ok(body.spider, 'body.spider is true')
         })
     })
+
+    t.test('Monitoring', function(t) {
+        doRequest('Monitoring', t, function(body) {
+            t.ok(body.spider, 'body.spider is true')
+        })
+    })
+
+    t.test('Pingability.com', function(t) {
+        doRequest('Pingability.com', t, function(body) {
+            t.ok(body.spider, 'body.spider is true')
+        })
+    })
 })
 
 test('teardown', function(t) {
