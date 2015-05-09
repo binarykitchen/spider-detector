@@ -17,6 +17,13 @@ var spiders = [
     /monit/,
     /Pingability/,
     /Monitoring/,
+    /WinHttpRequest/,
+    /Apache-HttpClient/,
+    /getprismatic.com/,
+    /EveryoneSocialBot/,
+    /curl/,
+    /browserproxy/,
+    /Monitoring/,
     /DotBot/,
     /pinterest/
 ]
