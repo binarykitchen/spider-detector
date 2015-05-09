@@ -1,18 +1,12 @@
 var spiders = [
+    /bot/,
     /baiduspider/,
-    /twitterbot/,
     /facebookexternalhit/,
-    /googlebot/,
-    /bingbot/,
     /simplepie/,
     /yahooseeker/,
-    /rogerbot/,
-    /linkedinbot/,
     /embedly/,
     /quora link preview/,
-    /showyoubot/,
     /outbrain/,
-    /slackbot/,
     /vkshare/,
     /monit/,
     /Pingability/,
@@ -20,11 +14,11 @@ var spiders = [
     /WinHttpRequest/,
     /Apache-HttpClient/,
     /getprismatic.com/,
-    /EveryoneSocialBot/,
     /curl/,
+    /python-requests/,
+    /Twurly/,
     /browserproxy/,
     /Monitoring/,
-    /DotBot/,
     /pinterest/
 ]
 
