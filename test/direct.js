@@ -9,6 +9,12 @@ test('direct call with:', function(t) {
         t.ok(spiderDetector.isSpider('baiduspider'), 'isSpider = true')
     })
 
+    t.test('googlebot', function(t) {
+        t.plan(1)
+
+        t.ok(spiderDetector.isSpider('googlebot'), 'isSpider = true')
+    })
+
     t.test('facebook', function(t) {
         t.plan(1)
 
@@ -19,13 +25,6 @@ test('direct call with:', function(t) {
         t.plan(1)
 
         t.ok(spiderDetector.isSpider('facebookexternalhit'), 'isSpider = true')
-    })
-
-    t.test('a fantasy name', function(t) {
-        t.plan(1)
-
-        var ua = 'i am a very bad spider that does not exist'
-        t.notOk(spiderDetector.isSpider(ua), 'isSpider = false')
     })
 
     t.test('no parameter', function(t) {

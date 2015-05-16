@@ -1,6 +1,6 @@
 var spiders = [
     /bot/,
-    /baiduspider/,
+    /spider/,
     /facebookexternalhit/,
     /simplepie/,
     /yahooseeker/,
