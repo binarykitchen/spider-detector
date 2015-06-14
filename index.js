@@ -19,6 +19,10 @@ var spiders = [
     /Twurly/,
     /browserproxy/,
     /Monitoring/,
+    /webmeup-crawler/,
+    /Qwantify/,
+    /Yahoo! Slurp/,
+    /Domain Re-Animator Bot/,
     /pinterest/
 ]
 
