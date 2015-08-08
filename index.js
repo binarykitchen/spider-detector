@@ -14,7 +14,6 @@ var spiders = [
     /WinHttpRequest/i,
     /Apache-HttpClient/i,
     /getprismatic.com/i,
-    /curl/i,
     /python-requests/i,
     /Twurly/i,
     /yandex/i,
