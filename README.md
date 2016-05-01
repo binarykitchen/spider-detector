@@ -1,10 +1,16 @@
 # spider-detector
 
-[![Build Status](https://travis-ci.org/binarykitchen/spider-detector.svg?branch=master)](https://travis-ci.org/binarykitchen/spider-detector)
+[![Build Status](https://travis-ci.org/binarykitchen/spider-detector.svg?branch=master)](https://travis-ci.org/binarykitchen/spider-detector) [![npm version](https://badge.fury.io/js/spider-detector.svg)](https://badge.fury.io/js/spider-detector)
 
 A tiny node module to detect spiders/crawlers quickly and comes with optional middleware for ExpressJS
 
 It might be useful when you have a single page app but want to deliver static pages for spiders.
+
+## Install
+
+```
+npm install spider-detector
+```
 
 ## Direct Example
 
