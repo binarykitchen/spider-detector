@@ -19,7 +19,7 @@ var spiders = [
     /yandex/i,
     /browserproxy/i,
     /Monitoring/i,
-    /webmeup-crawler/i,
+    /crawler/i,
     /Qwantify/i,
     /Yahoo! Slurp/i,
     /pinterest/i
