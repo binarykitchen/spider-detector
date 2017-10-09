@@ -1,35 +1,34 @@
-var spiderDetector = require('../'),
-    test = require('tape')
+const spiderDetector = require('../')
+const test = require('tape')
 
-test('direct call with:', function(t) {
+test('direct call with:', function (t) {
+  t.test('baiduspider', function (t) {
+    t.plan(1)
 
-    t.test('baiduspider', function(t) {
-        t.plan(1)
+    t.ok(spiderDetector.isSpider('baiduspider'), 'isSpider = true')
+  })
 
-        t.ok(spiderDetector.isSpider('baiduspider'), 'isSpider = true')
-    })
+  t.test('googlebot', function (t) {
+    t.plan(1)
 
-    t.test('googlebot', function(t) {
-        t.plan(1)
+    t.ok(spiderDetector.isSpider('googlebot'), 'isSpider = true')
+  })
 
-        t.ok(spiderDetector.isSpider('googlebot'), 'isSpider = true')
-    })
+  t.test('facebook', function (t) {
+    t.plan(1)
 
-    t.test('facebook', function(t) {
-        t.plan(1)
+    t.notOk(spiderDetector.isSpider('facebook'), 'isSpider = false')
+  })
 
-        t.notOk(spiderDetector.isSpider('facebook'), 'isSpider = false')
-    })
+  t.test('facebookexternalhit', function (t) {
+    t.plan(1)
 
-    t.test('facebookexternalhit', function(t) {
-        t.plan(1)
+    t.ok(spiderDetector.isSpider('facebookexternalhit'), 'isSpider = true')
+  })
 
-        t.ok(spiderDetector.isSpider('facebookexternalhit'), 'isSpider = true')
-    })
+  t.test('no parameter', function (t) {
+    t.plan(1)
 
-    t.test('no parameter', function(t) {
-        t.plan(1)
-
-        t.notOk(spiderDetector.isSpider(), 'isSpider = false')
-    })
+    t.notOk(spiderDetector.isSpider(), 'isSpider = false')
+  })
 })

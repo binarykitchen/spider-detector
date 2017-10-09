@@ -17,8 +17,9 @@
     "test": "tape test/*.js"
   },
   "engines": {
-    "node": ">=0.10.30",
-    "npm": ">=1.4.20"
+    "node": ">=4.8.4",
+    "npm": ">=2.10.0",
+    "yarn": ">=1.0.1"
   },
   "keywords": [
     "crawler",
@@ -31,8 +32,8 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "express": "4.15.2",
-    "superagent": "1.8.3",
-    "tape": "4.6.3"
+    "express": "4.16.1",
+    "superagent": "3.6.3",
+    "tape": "4.8.0"
   }
 }
