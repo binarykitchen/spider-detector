@@ -18,7 +18,6 @@ const spiders = [
   /Twurly/i,
   /yandex/i,
   /browserproxy/i,
-  /Monitoring/i,
   /crawler/i,
   /Qwantify/i,
   /Yahoo! Slurp/i,
