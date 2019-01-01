@@ -1,6 +1,6 @@
 {
   "name": "spider-detector",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "A tiny node module to detect spiders/crawlers quickly and comes with optional middleware for ExpressJS",
   "main": "index.js",
   "author": {
@@ -32,8 +32,8 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "express": "4.16.1",
-    "superagent": "3.6.3",
-    "tape": "4.8.0"
+    "express": "4.16.4",
+    "superagent": "4.1.0",
+    "tape": "4.9.2"
   }
 }
