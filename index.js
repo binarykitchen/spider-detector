@@ -24,6 +24,7 @@ const spiders = [
   /pinterest/i,
   /Tumblr\/14.0.835.186/i,
   /Tumblr Agent 14.0/i,
+  /WhatsApp/i,
 ]
 
 function isSpider (ua) {
