@@ -9,31 +9,31 @@ It might be useful when you have a single page app but want to deliver static pa
 ## Install
 
 ```
-npm install spider-detector
+npm install spider-detector // or `yarn install spider-detector`
 ```
 
 ## Direct Example
 
 ```js
-var detector = require('spider-detector')
+const detector = require('spider-detector')
 detector.isSpider('baiduspider') // return true
 ```
 
 ## ExpressJS example
 
 ```js
-var detector = require('spider-detector'),
-    express  = require('express'),
-    app      = express()
+const detector = require('spider-detector')
+const express = require('express')
+const app = express()
 
 app.use(detector.middleware())
 
 app.get('/*', function(req, res) {
-    if (req.isSpider()) {
-        // do something else, i.E. send a static page
-    } else {
-        // send single page app
-    }
+  if (req.isSpider()) {
+    // do something else, i.E. send a static page
+  } else {
+    // send single page app
+  }
 })
 ```
 
