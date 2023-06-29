@@ -26,6 +26,7 @@ const spiders = [
   /Tumblr Agent 14.0/i,
   /WhatsApp/i,
   /Google-Structured-Data-Testing-Tool/i,
+  /Google-InspectionTool/i,
 ]
 
 function isSpider (ua) {
