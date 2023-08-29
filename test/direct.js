@@ -26,6 +26,12 @@ test('direct call with:', function (t) {
     t.ok(spiderDetector.isSpider('facebookexternalhit'), 'isSpider = true')
   })
 
+  t.test('gptbot', function (t) {
+    t.plan(1)
+
+    t.ok(spiderDetector.isSpider('gptbot'), 'isSpider = true')
+  })
+
   t.test('no parameter', function (t) {
     t.plan(1)
 
