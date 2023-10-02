@@ -27,7 +27,8 @@ const spiders = [
   /WhatsApp/i,
   /Google-Structured-Data-Testing-Tool/i,
   /Google-InspectionTool/i,
-  /GPTBot/i
+  /GPTBot/i,
+  /Applebot/i
 ]
 
 function isSpider (ua) {
