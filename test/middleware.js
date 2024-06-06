@@ -62,6 +62,12 @@ test('middleware with:', function (t) {
       t.ok(body.spider, 'body.spider is true')
     })
   })
+
+  t.test('GPTBot', function (t) {
+    doRequest('GPTBot', t, function (body) {
+      t.ok(body.spider, 'body.spider is true')
+    })
+  })
 })
 
 test('teardown', function (t) {
