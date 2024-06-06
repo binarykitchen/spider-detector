@@ -27,6 +27,10 @@ const spiders = [
   /WhatsApp/i,
   /Google-Structured-Data-Testing-Tool/i,
   /Google-InspectionTool/i,
+  /Bytespider/i,
+  /ImagesiftBot/i,
+  /SemrushBot/i,
+  /AhrefsBot/i,
 ]
 
 function isSpider (ua) {
