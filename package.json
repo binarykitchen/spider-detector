@@ -1,6 +1,6 @@
 {
   "name": "spider-detector",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "A tiny node module to detect spiders/crawlers quickly and comes with optional middleware for ExpressJS",
   "main": "index.js",
   "author": {
